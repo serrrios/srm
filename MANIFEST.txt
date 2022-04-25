@@ -1,0 +1,47 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "private",
+  "signedByOrg": "serrrios",
+  "signedByOrgName": "serrrios",
+  "rootUrls": [
+    "https://grafana.domrfbank.ru/"
+  ],
+  "plugin": "srm-panel",
+  "version": "1.0.11",
+  "time": 1650877486558,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "css/status_panel.css": "30dd2b2c0eedbca7b3b4489e136e196810e1cb5114f71344932e636a851c4122",
+    "css/status_panel.css.map": "7ce0e75ec1d5bfaf6f64d4b925c87b29a2c3a1a48dd979ea108b3fb8ebfc891b",
+    "editor.html": "eee8a62e4f4d5f29da833e8ecd1ad30d9e95f63214d4ea9cab5a71c291c66549",
+    "img/environment_snapshot.png": "4146f86ca04c6ed35877d9d5415fb4ef721d46126fee1f5435636b281039f4cd",
+    "img/error.png": "261abcf4f3d00f8319eb806bb7ef72e571148c28edb3d6d47bf0a7d59273fa32",
+    "img/icon_status_panel.png": "534c904e249c36ad51e20d4d4181407745d9f877e100aa24bfed88365d35ead6",
+    "img/icon_status_panel.svg": "2e3b8c291d0ec34e483653d5a3404948332aebfef8e9b78c67bc5be9b9c2e794",
+    "img/ok.png": "b44277f70d1e675e0574de6400455fe41b89a8939abed7f7e72bf51509670c0f",
+    "img/srm.png": "db20ba8893f2335b6e229920aa4de3938118a74c42f663bea5b16d390fca6645",
+    "img/warning.png": "69674523b08ef1007f1b1c28ebba43b335f908edb8af18b0bec04317953b93c2",
+    "module.html": "c5fc42670267df2fc71bbd0bc5c6b979175ebd3974aa9f434278ff144da540cf",
+    "module.js": "556190c0032a31b6cf206928e3496a82a7be220141f024b6c5542d13b3e17c25",
+    "module.js.map": "2c64ce340d6ab8f395369b45fa3a76472dc939a2a5976a4c3ad9be513c9c81ff",
+    "plugin.json": "05b27a418341364539051c65e0c6217b6bc60650830efa6175da1841c66a2d76",
+    "README.md": "8f9ff1192d1d3bd78aad8847a07f3c032067a2c401e522d017b754a9223e8542",
+    "status_ctrl.js": "2e308a847620ec2e31e84ef1d283b2a988b49ca4471d7342e9f7fe6ab68335f2",
+    "status_ctrl.js.map": "82d4c5d133983f1458d3757d3740d8576e47803bcda83b254aff87c531980d6f"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrgEARMKAAYFAmJmZC4AIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm55ZFAgkBlSDxxpNOEiUgZ0x1gau1sVpvLMU06T01cteJnsebd28O4rbi
+BBsgBCcAQrB3d71M4OS9vE2Tg+PAZzuLRpcpy/8CB0rd77wokXZe489GWRpZ
+bOveL7gq+F/x3qgRubzK/Kr/fw65HrOnpBijeVFacj/lbQ4xdKtNpt5YcMXe
+hqN4eHbz
+=jtQF
+-----END PGP SIGNATURE-----
