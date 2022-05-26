@@ -1,0 +1,643 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url("../images/main-tail.gif") repeat 50% 17px;
+}
+iframe {
+	margin-left:5px;
+}
+#main-tail {
+
+
+	margin:0 auto;
+}
+#flashContent,#navi,#search-form,#nav,#faded,#content,#lang,#left,#textarea {
+	float:left;
+}
+#nav {
+	margin:10px 4px;
+    background: url("../images/menu.gif") no-repeat 0% 0%;
+
+	height: 38px;
+	padding: 1px 4px 5px 1px;
+}
+#nav ul {
+		width: 100%;
+	}
+	
+		#nav ul li {
+			background: url("../images/menu-divider.gif") no-repeat 100% 0%;
+			position: relative;
+			float: left;
+		}
+		#nav ul li.last {
+			background: none;
+		}
+		#nav ul li a {
+				background: url("../images/menu-act.gif") repeat-x 0% -37px;
+				position: relative;
+				float: left;
+				width: 140px;
+				height: 38px;
+				padding: 0 0 0 20px;
+				overflow: hidden;
+				line-height: 38px;
+				font-size: 0.917em;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				color: #000;
+			}
+			#nav ul li a:hover {
+					background-position: 0% 0%;
+					text-shadow: 1px 1px 0 #276880;
+					color: #fff;
+				}
+			#nav > ul > li.act > a {
+				background-position: 0% 0%;
+				text-shadow: 1px 1px 0 #276880;
+				color: #fff;
+			}
+			
+			
+			
+			
+			
+			/* ============================= JS faded slider START ===================================== */
+
+#faded {
+/*	width: 966px;*/
+	height: 426px;
+	left:4px;
+	overflow: hidden;
+	position: relative;
+}
+
+	#faded a.prev {
+		background: url("../images/button-prev.gif") no-repeat 0% 0%;
+		display: block;
+		width: 14px;
+		height: 21px;
+		overflow: hidden;
+		text-indent: -100px;
+		position: absolute;
+		top: 372px;
+		left: 422px;
+		z-index: 100;
+	}
+	
+	#faded a.next {
+		background: url("../images/button-next.gif") no-repeat 0% 0%;
+		display: block;
+		width: 14px;
+		height: 21px;
+		overflow: hidden;
+		text-indent: -100px;
+		position: absolute;
+		top: 372px;
+		left: 525px;
+		z-index: 100;
+	}
+
+	
+
+ul.pagination {
+	width: 60px;
+	height: 36px;
+	overflow: hidden;
+	position: absolute;
+	top: 367px;
+	left: 455px;
+	z-index: 99;
+}
+
+	ul.pagination li {
+		float: left;
+		padding: 0 5px 4px 0;
+	}
+
+		ul.pagination li a {
+			background: url("../images/pagination.png") no-repeat 0% 0%;
+			float: left;
+			width: 14px;
+			height: 14px;
+			overflow: hidden;
+			text-indent: -100px;
+		}
+
+		ul.pagination li.current a {
+			background-position: 0% -14px;
+		}
+		
+		ul.pagination li a:hover {
+			background-position: 0% -14px;
+		}
+
+/* ============================== JS faded slider END ====================================== */
+#header {
+/*	width:1000px;*/
+	float:left;
+}
+
+/* ============================= forms START ===================================== */
+
+#contact-form {
+	width: 319px;
+	overflow: hidden;
+}
+
+	#contact-form label {
+		background: url("../images/contact-input.gif") no-repeat 0% 0%;
+		display: block;
+		height: 50px;
+		overflow: hidden;
+	}
+	
+	#contact-form strong {
+		background: url("../images/contact-textarea.gif") no-repeat 0% 0%;
+		display: block;
+		width: 100%;
+		height: 240px;
+		font-weight: normal;
+	}
+	
+	#contact-form input {
+		background: none;
+		width: 279px;
+		height: 16px;
+		padding: 8px 18px 8px 18px;
+		border: none;
+		float: left;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.167em;
+		color: #838383;
+	}
+	
+	#contact-form textarea {
+		background: none;
+		width: 279px;
+		height: 220px;
+		padding: 8px 18px 8px 18px;
+		border: none;
+		overflow: auto;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.167em;
+		color: #838383;
+	}
+	
+	#contact-form div.line {
+		background: url("../images/line-hor.gif") repeat-x 0% 0%;
+		width: 100%;
+		height: 15px;
+		overflow: hidden;
+		margin: 25px 0 0 0;
+	}
+
+	#contact-form a {
+		float: right;
+		margin: 0 6px 0 19px;
+		line-height: 20px;
+		font-size: 0.917em;
+		text-transform: uppercase;
+		color: #51c1d3;
+	}
+
+#search-form {
+	background: url("../images/search-input.gif") no-repeat 0% 0%;
+	width: 209px;
+	height: 35px;
+	overflow: hidden;
+	position: relative;
+	left:285px;
+	top:27px;
+}
+
+	#search-form input {
+		background: none;
+		width: 161px;
+		height: 15px;
+		padding: 10px 0 10px 10px;
+		border: none;
+		float: left;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		color: #000;
+	}
+	
+	#search-form input#search-submit {
+		background: url("../images/search-submit.gif") no-repeat 0% 0%;
+		width: 38px;
+		height: 35px;
+		padding: 0;
+		border: none;
+		float: left;
+		cursor: pointer;
+	}
+
+/* ============================== forms END ====================================== */
+
+#navi {
+	overflow: hidden;
+	position:relative;
+	left:280px;
+	top:25px;
+	
+}
+
+	#navi li {
+		background: url("../images/navi-divider.gif") no-repeat right center;
+		float: left;
+		margin: 0 0 0 -1px;
+		padding: 0 7px 0 8px;
+		line-height: 36px;
+		font-size: 11px;
+		text-transform: uppercase;
+		color: #a1a1a1;
+	}
+	
+		#navi li a {
+			text-decoration: none;
+			color: #a1a1a1;
+		}
+		
+			#navi li a:hover {
+				text-decoration: underline;
+			}
+
+
+
+
+#content {
+	width: 100%;
+	height: 100%;
+	background: url("../images/content-top.gif") no-repeat;
+}
+
+#bottom {
+	height:10px;
+	
+}
+#footer {
+	background:white;
+	height:150px;
+}
+#lang {
+	position:relative;
+	left:290px;
+	bottom:5px;
+}
+#lang li {
+	line-height:35px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #a1a1a1;
+}
+#lang img {
+	margin:10px 10px;
+}
+#lang a {
+		
+			text-decoration: none;
+			color: #a1a1a1;
+		
+}
+#lang a:hover {
+	color:#099;
+}
+
+#left {
+	width:15%;
+	position:relative;
+	left:5px;
+	height:100%;
+	border-right:1px solid #CCC;
+}
+.indent-left h1 {
+	padding: 20px 30px;
+	color:#51c1d3;
+	font-size:24px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.list-1 {
+	overflow: hidden;
+}
+
+	.list-1 li {
+		margin: 0 0 -2px 0;
+		line-height: 40px;
+		width:250px;
+	}
+	
+		.list-1 li a {
+			display: block;
+			height: 42px;
+			line-height: 43px;
+			padding: 0 0 0 30px;
+			text-decoration: none;
+			font-size: 11px;
+	        text-transform: uppercase;
+			color: #838383;
+			font-family:
+		}
+		
+		.list-1  a:hover {
+			background: url("../images/list-tail.gif") repeat-x 0% 0%;
+			color: #5198a4;
+		}
+		
+			.list-1  a:hover span {
+				background: url("../images/list-marker.gif") no-repeat 100% 12px;
+				display: block;
+			}
+			.act-1  a {
+			background: url("../images/list-tail.gif") repeat-x 0% 0%;
+			color: #5198a4;
+		}
+		
+			.act-1  a span {
+				background: url("../images/list-marker.gif") no-repeat 100% 12px;
+				display: block;
+			}
+#top {
+        width: 100%;
+	border-bottom:1px solid #CCC;
+	margin:0 auto;
+}
+#top h1 {
+	padding:25px 0 0 30px;
+	color:#51c1d3;
+	font-size:24px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+#top p {
+	padding:0 0 10px 30px;
+	color:#838383;
+	font-size:12px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*from italy*/
+@charset "UTF-8";
+.celle_td_prodotti {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.celle_td_prodotti p { font-size: 12px; line-height: 12px; margin: 3px 0; padding: 3px 0; }
+.celle_td_prodotti h1 { font-size: 16px; color: #00357a; line-height: 16px; font-weight: normal; margin: 3px 0; padding: 3px 0; }
+.celle_td_prodotti h2 { font-size: 14px; text-align: left; line-height: 14px; color:#00357a; margin: 7px 0 3px; padding: 0; }
+.celle_td_prodotti td {
+	width: 25%;
+}
+.celle_td_prodotti a{
+		color:#00357a;
+		text-decoration:none;		
+		}
+.celle_td_prodotti a:hover{
+	color:#39F;
+		}
+#textarea{
+	margin:10px 0 0 30px;
+	
+}
+#textarea td {
+	width:143px;
+	text-align:center;
+	padding:10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #838383;
+	font-family:
+}
+#textarea h2 {
+	color:#51c1d3;
+	font-size:18px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+/*jQury Window*/
+#window
+
+        {
+
+position: absolute;
+
+left: 200px;
+
+top: 100px;
+
+width: 800px;
+
+height: 300px;
+
+overflow: hidden;
+
+display: none;
+
+}
+
+#windowTop
+
+{
+
+height: 30px;
+
+overflow: 30px;
+
+background-image: url(../images/window_top_end.png);
+
+background-position: right top;
+
+background-repeat: no-repeat;
+
+position: relative;
+
+overflow: hidden;
+
+cursor: move;
+
+}
+
+#windowTopContent
+
+{
+
+margin-right: 13px;
+
+background-image:url(../images/window_top_start.png);
+
+background-position:left top;
+
+background-repeat: no-repeat;
+
+overflow: hidden;
+
+height: 30px;
+
+line-height: 30px;
+
+text-indent: 10px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-weight: bold;
+
+font-size: 14px;
+
+color: #6caf00;
+
+}
+
+#windowMin
+
+{
+
+position: absolute;
+
+right: 25px;
+
+top: 10px;
+
+cursor: pointer;
+
+}
+
+#windowMax
+
+{
+
+position: absolute;
+
+right: 25px;
+
+top: 10px;
+
+cursor: pointer;
+
+display: none;
+
+}
+
+#windowClose
+
+{
+
+position: absolute;
+
+right: 10px;
+
+top: 10px;
+
+cursor: pointer;
+
+}
+
+#windowBottom
+
+{
+
+position: relative;
+
+height: 270px;
+
+background-image: url(../images/window_bottom_end.png);
+
+background-position: right bottom;
+
+background-repeat: no-repeat;
+
+}
+
+#windowBottomContent
+
+{
+
+position: relative;
+
+height: 270px;
+
+background-image: url(../images/window_bottom_start.png);
+
+background-position: left bottom;
+
+background-repeat: no-repeat;
+
+margin-right: 13px;
+
+}
+
+#windowResize
+
+{
+
+position: absolute;
+
+right: 3px;
+
+bottom: 5px;
+
+cursor: se-resize;
+
+}
+
+#windowContent
+
+{
+
+position:absolute;
+
+top: 30px;
+
+left: 10px;
+
+width: auto;
+
+height: auto;
+
+overflow: auto;
+
+margin-right: 10px;
+
+border: 1px solid #6caf00;
+
+height: 255px;
+
+width: 375px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+background-color: #fff;
+
+}
+
+#windowContent *
+
+{
+
+margin: 10px;
+
+}
+
+.transferer2
+
+{
+
+border: 1px solid #6BAF04;
+
+background-color: #B4F155;
+
+filter:alpha(opacity=30); 
+
+-moz-opacity: 0.3; 
+
+opacity: 0.3;
+
+}
